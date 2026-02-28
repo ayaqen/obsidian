@@ -163,6 +163,52 @@ All community submissions come through PRs. The process:
 
 ---
 
+## Recommended Plugins for an Obsidian Workflow
+
+These plugins are all registered in `community-plugins.json` and represent a solid baseline for a productive Obsidian workflow. Install them via **Settings → Community Plugins → Browse**.
+
+### Dataview
+- **Registry ID:** `dataview`
+- **Author:** Michael Brenan
+- **Repo:** [blacksmithgu/obsidian-dataview](https://github.com/blacksmithgu/obsidian-dataview)
+- **What it does:** Treats your vault as a database. Query notes by metadata using SQL-like syntax (`dataview`) or JavaScript (`dataviewjs`).
+- **Tip:** Add YAML frontmatter fields (e.g. `status: active`, `due: 2026-03-01`) to notes, then query them across the vault.
+
+### Templater
+- **Registry ID:** `templater-obsidian`
+- **Author:** SilentVoid
+- **Repo:** [SilentVoid13/Templater](https://github.com/SilentVoid13/Templater)
+- **What it does:** Creates dynamic templates with JavaScript expressions, date variables, and user prompts — far more powerful than Obsidian's built-in templates.
+- **Tip:** Set a templates folder in Settings and bind a hotkey (e.g. `Alt+T`) to insert templates instantly.
+
+### Tasks
+- **Registry ID:** `obsidian-tasks-plugin`
+- **Author:** Clare Macrae and Ilyas Landikov (created by Martin Schenck)
+- **Repo:** [obsidian-tasks-group/obsidian-tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- **What it does:** Tracks tasks across your entire vault with support for due dates, priorities, recurrence, and filtered views.
+- **Tip:** Use a `Tasks` query block in a dashboard note to surface all overdue or due-today items vault-wide.
+
+### Git
+- **Registry ID:** `obsidian-git`
+- **Author:** Vinzent (Denis Olehov)
+- **Repo:** [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git)
+- **What it does:** Integrates Git into Obsidian — auto-commits on a schedule, manual push/pull via command palette, and diff viewing.
+- **Tip:** Enable auto-backup every 10 minutes and set a remote GitHub repo as your vault's off-site backup.
+
+### Excalidraw
+- **Registry ID:** `obsidian-excalidraw-plugin`
+- **Author:** Zsolt Viczian
+- **Repo:** [zsviczian/obsidian-excalidraw-plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+- **What it does:** Embeds fully-featured Excalidraw diagrams directly inside your notes. Supports hand-drawn style sketches, flowcharts, and mind maps.
+- **Tip:** Use `![[diagram.excalidraw]]` to embed a drawing inline within any markdown note.
+
+### Canvas *(built-in core feature)*
+- **Not a community plugin** — Canvas ships with Obsidian by default.
+- **What it does:** A spatial, infinite canvas where you can arrange notes, images, and web pages as cards and connect them with arrows.
+- **Tip:** Use Canvas as a project overview board — drag in existing notes as cards and use colored groups to cluster related ideas.
+
+---
+
 ## AI Assistant Guidelines
 
 ### What this repo is for
